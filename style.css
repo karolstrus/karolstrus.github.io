@@ -1,5 +1,6 @@
 .demo-layout-transparent {
-  background: url('what-the-hex-dark.png') center / cover;
+    background: url('what-the-hex-dark.png') center / cover;
+    opacity: 0.3;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -31,13 +32,11 @@ td .mdl-textfield {
     top: 33px;
 }
 
-/* Position delete icon for observation table cells. */
-.mdl-data-table__cell--non-numeric > .mdl-button--icon {
-    position: absolute;
-    right: 15px;
-    top: 33px;
-}
-
 #errorMessages {
     color: #d50000;
+}
+
+.front-photo{
+    position: fixed;
+    padding: 70px 70px 0px 0px;
 }
