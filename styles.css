@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.shareChange {
+    padding: 10px 0px;
+    height: auto;
+    width: 100%;
+    text-align: right;
+    margin-top: 18px;
+}
+
+.shareChange a {
+    border: 1px solid;
+    border-radius: 5px;
+    color: darkgrey;
+    margin: 0px 10px;
+    padding: 10px 15px 5px 15px;
+    text-decoration: none;
+    transition: background-color 1.5s;
+    transition: color 0.5s;
+}
+
+.shareChange a:hover {
+  background: darkgrey;
+  border: 1px solid black;
+  color: white;
+}
+
+#icon {
+    height: 60px;
+    width: 60px;
+    margin: 0px 20px;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: white;
+    transition: border 2s;
+    position: fixed;
+}
+
+#icon:hover {
+    border: 1px solid darkgrey;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logos {
+    padding-top: 20px;
+}
+
+.logos img {
+    height: 30px;
+    width: auto;
+    margin-left: 165px;
+    transition: background-color 1s;
+}
+
+.logos img:hover {
+    background-color: lightgray;
+}
+
+.myCanvas {
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 50px;
+    border: 2px solid white;
+    height: 235px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
